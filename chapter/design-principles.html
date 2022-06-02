@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles // Online Sports Comnunities – A concept for supporting the user’s participation in team sports</title>
     <link rel="stylesheet" href="/assets/styles/reset.css">
-    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/base.css">
+    <link rel="stylesheet" href="/assets/styles/variables.css">
+    <link rel="stylesheet" href="/assets/styles/fonts.css">
+    <link rel="stylesheet" href="/assets/styles/components.css">
+    <link rel="stylesheet" href="/assets/styles/utilities.css">
   </head>
   <body>
 
-    <section class="intro">
-      <h1>Design Principles</h1>
+    <section id="main-intro" class="intro is-large">
+      <h1 class="main-headline">Design Principles</h1>
 
       <p>The challenge is to develop an application that tries to increase the user’s participation in team sports through online communities. Several factors play into the success of this concept. It is not possible to achieve this goal if the application is not properly designed. To achieve this, design principles of several disciplines are applied to achieve a user-centric solution.</p>
+
+      <dl>
+        <dt>What?</dt>
+        <dd>Ausdruck von Unverständnis</dd>
+      </dl>
+
+      <p>It is not possible to achieve this goal if the application is not properly designed.</p>
 
     </section>
 
@@ -60,6 +71,8 @@
             </dd>
 
             <dt>Stimulation</dt>
+            <dd>Stimulation is the feeling of experiencing much of joy and pleasure instead of feeling bored and understimulated <cite>HASSENZAHL & DIEFENBACH, 2012, P. 1</cite>
+            </dd>
             <dd>Stimulation is the feeling of experiencing much of joy and pleasure instead of feeling bored and understimulated <cite>HASSENZAHL & DIEFENBACH, 2012, P. 1</cite>
             </dd>
 
@@ -111,27 +124,36 @@
               </tr>
             </tbody>
           </table>
-
-          <form action="https://res-of-server.de/my-form" method="get">
-            <label for="email">E-Mail Adresse</label>
-            <input id="email" name="email" type="text" placeholder="joe@example.com">
-
-            <label for="avatar">Choose a profile picture:</label>
-            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
-
-            <label for='abstract'>Abstract</label>
-            <textarea id='abstract' name='abstract'></textarea>
-
-            <label for="anonymize-name">Please anonymize my name if my comment is published.</label>
-            <input id="anonymize-name" name="anonymize-name" type="checkbox" value="true">
-
-            <label for="private-policy-accepted">I have read and agree to the privacy policy.</label>
-            <input id="private-policy-accepted" name="private-policy-accepted" type="checkbox" value="true">
-
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-
-          </form>
         </main>
+
+                  <footer>
+            <h2>Get in touch</h2>
+            <form action="https://res-of-server.de/my-form" method="get">
+              <div class="form-field is-stacked">
+                <label for="email">E-Mail Adresse</label>
+                <input id="email" name="email" type="text" placeholder="joe@example.com">
+              </div>
+              <div class="form-field is-stacked">
+                <label for="avatar">Choose a profile picture</label>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+              </div>
+              <div class="form-field is-stacked">
+                <label for='abstract'>Abstract</label>
+                <textarea id='abstract' name='abstract'></textarea>
+              </div>
+              <div class="form-field">
+                <label for="anonymize-name">Please anonymize my name if my comment is published.</label>
+                <input id="anonymize-name" name="anonymize-name" type="checkbox" value="true">
+              </div>
+              <div class="form-field">
+                <label for="private-policy-accepted">I have read and agree to the privacy policy.</label>
+                <input id="private-policy-accepted" name="private-policy-accepted" type="checkbox" value="true">
+              </div>
+              <div class="form-field">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </div>
+            </form>
+          </footer>
       </body>
     </html>

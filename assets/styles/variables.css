@@ -1,0 +1,22 @@
+:root{
+  --ff-sans: IBM-Plex-Sans, Arial, Helvetica, sans-serif;
+  --ff-serif: IBM-Plex-Serif, 'Times New Roman', Times, serif;
+
+  --xs: 0.6rem;
+  --s: 0.75rem; 
+  --m: 1rem;
+  --l: 1.25rem;
+  --xl: 1.6rem;
+  --xxl: 1.8rem;
+
+  --half: 0.5em;
+  --quad: 0.25em;
+
+  --darken: rgba(0,0,0,0.5);
+  --lighten: rgba(255,255,255,0.5);
+  --light: hsl(0,0%,90%);
+  --lighter: hsl(0,0%,95%);
+  --lightest: hsl(0,0%,100%);
+
+  --tr-medium: 0.6s;
+}

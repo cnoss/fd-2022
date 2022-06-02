@@ -1,0 +1,58 @@
+/* Intro
+############################################################################ */
+
+.intro{
+  background-color: pink;
+  transition: background-color var(--tr-medium);
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro:hover{
+  background-color: black;
+  color: white;
+}
+
+.intro p{
+  padding-left: 0;
+  transition: padding var(--tr-medium);
+}
+
+
+/* Form Field
+############################################################################ */
+
+.form-field{
+  margin-bottom: var(--m);
+}
+
+.form-field.is-stacked{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--quad);
+}
+
+.form-field.is-stacked label{
+  font-size: var(--s);
+  font-family: var(--ff-sans);
+}
+
+.form-field textarea{
+  height: 10vh;
+}
+
+.form-field input[type=text], .form-field textarea{
+  width: 100%;
+} 
+
+.form-field input[type=text]{
+  width: clamp(100px,100%, 30em);
+}
+
+
+

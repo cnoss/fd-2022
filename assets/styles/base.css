@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(240,240,240);
+  font-size: 18px;
+  font-family: var(--ff-serif);
+  position: relative;
+}
+
+body > *{
+  padding: 10vw;
+}
+
+body > * > *{
+  max-width: 60rem;
+}
+
+h1, h2, h3{
+  font-family: var(--ff-sans);
+  font-weight: 700;
+  margin-bottom: var(--xs);
+}
+
+h1{ 
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+h3, dt{
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+p, figure{
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+dt{
+  margin-top: 2rem;
+}
+
+section{
+  background-color: cadetblue;
+}
+
+/* Tables
+############################################################################ */
+
+table{
+  border-spacing: 0;
+  margin-bottom: var(--xl);
+  width: 100%;
+}
+
+table thead th, td{
+  text-align: left;
+}
+
+table th, td{
+  padding: var(--s);
+}
+
+table tbody td{
+  border-top: solid 1px var(--darken);
+
+}
+
+/* Main
+############################################################################ */
+
+main{
+  background-color: var(--light);
+}
+
+/* Footer
+############################################################################ */
+
+footer{
+  background-color: var(--lightest);
+}
+
+
